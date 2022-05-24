@@ -1,0 +1,255 @@
+
+
+.footer-dark {
+   padding:50px 0;
+   color:#f0f9ff;
+   background-color:#282d32;
+ }
+ 
+ .footer-dark h3 {
+   margin-top:0;
+   margin-bottom:12px;
+   font-weight:bold;
+   font-size:16px;
+ }
+ 
+ .footer-dark ul {
+   padding:0;
+   list-style:none;
+   line-height:1.6;
+   font-size:14px;
+   margin-bottom:0;
+ }
+ 
+ .footer-dark ul a {
+   color:inherit;
+   text-decoration:none;
+   opacity:0.6;
+ }
+ 
+ .footer-dark ul a:hover {
+   opacity:0.8;
+ }
+
+ /*********************/
+ /*      FORM  CONNEXION      */
+ /*********************/
+
+ form {
+   border: 3px solid #f1f1f1;
+   background-color: rgb(36, 34, 34);
+   width: 800px;
+  margin: 0 auto;
+  color: white;
+ }
+
+ 
+
+ input[type=text], input[type=password], input[type=email] {
+   padding: 12px 20px;
+   margin: 8px 0;
+   display: inline-block;
+   border: 1px solid #ccc;
+   box-sizing: border-box;
+   color: rgb(74, 72, 72);
+ }
+ 
+
+ 
+ button:hover {
+   opacity: 0.8;
+ }
+ 
+ .form button {
+   display: block;
+   width: 35%;
+   background-color: green;
+   color: white;
+   border-radius: 8px;
+   padding: 14px 20px;
+   margin: 0 auto;
+   border: none;
+   cursor: pointer;
+}
+
+
+ .imgcontainer {
+   text-align: center;
+   margin: 24px 0 12px 0;
+
+ }
+
+ .imgcontainer img{
+   height: 256px;
+   width: 400px;
+ }
+
+ .form-container{
+   display: flex;
+   flex-direction: column;
+   width:600px;
+   margin: 0 auto;
+ }
+ 
+  /*********************/
+ /*      BANNER        */
+ /*********************/
+
+ .banner{
+   min-height: 90vh;
+   background-image: url('https://images.unsplash.com/photo-1467810563316-b5476525c0f9?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2069');
+   background-size: cover;
+  }
+
+  .title{
+     color: white;
+  }
+
+  .little-banner{
+   width: 100%;
+   height: 150px;
+   background-image: url('https://cdn.pixabay.com/photo/2014/08/11/11/50/moon-415501_1280.jpg');
+   background-size: cover;
+   background-position: 0 50%;
+  }
+
+/*********************/
+ /*      CARDS        */
+ /*********************/
+
+ .card-event{
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  }
+
+  .card-participant {
+    margin: 10px 20px 10px 20px;
+    background-color: white;
+  }
+
+.city-card{
+   display: flex;
+   text-align: center;
+   padding: 10px 20px ;
+}
+
+.btn-card {
+   background-color: black;
+   color: white;
+   border: 2px solid;
+   width: 50%;
+   height: 50px;
+   border-radius: 5px;
+}
+
+/*********************/
+ /*      COMMENTS    */
+ /*********************/
+
+
+
+.btn-post {
+  background-color: black;
+  color: white;
+  font: inherit;
+  min-width: 140px;
+  min-height: 30px;
+  border: none;
+}
+
+.btn-post:active {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+}
+
+.btn-cancel{
+   background: white;
+   color: black;
+   border: 2px solid black;
+   font: inherit;
+   width: 140px;
+   height: 30px;  
+}
+
+.btn-cancel:active{
+   background-color: black;
+   color: white;
+}
+
+.btn-participer {
+  background-color: black;
+  color: white;
+  font: inherit;
+  min-width: 300px;
+  min-height: 30px;
+  border: none;
+}
+
+/*********************/
+ /*      SHOW    */
+ /*********************/
+
+ .container-show{
+    display: flex;
+    flex-direction: column; 
+ }
+ 
+ i{
+   margin:10px;
+ }
+
+ .fa-calendar-lines-pen {
+   color:white;
+ }
+
+/*********************/
+ /*      SHOWELEMENT    */
+ /*********************/
+
+
+.container-event{
+   display: flex;
+   align-items: center;
+    background: linear-gradient(to left, transparent, mistyrose),
+          url("https://cdn.pixabay.com/photo/2020/02/18/15/18/laugh-4859749_1280.jpg");
+    background-size: cover;
+    height: 550px;      
+}
+
+.title-event{
+   display: block;
+   justify-content: flex-end;
+   align-items: center;
+   font-size: 6rem;
+}
+
+.p-event{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 1rem;
+}
+
+.crash-test{
+   display: block;
+   width: 35%;
+   background-color: black;
+   color: white;
+   border-radius: 8px;
+   padding: 14px 20px;
+   margin: 0 auto;
+   border: none;
+   cursor: pointer;
+}
+
+.event_element {
+  background: linear-gradient(to left, transparent, white),
+          url("https://cdn.pixabay.com/photo/2020/02/18/15/18/laugh-4859749_1280.jpg");
+  background-size: cover;
+  height: 350px
+}
+
+
