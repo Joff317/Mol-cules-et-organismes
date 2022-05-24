@@ -212,18 +212,19 @@
 
 .container-event{
    display: flex;
+   justify-content: flex-start;
    align-items: center;
-    background: linear-gradient(to left, transparent, mistyrose),
-          url("https://cdn.pixabay.com/photo/2020/02/18/15/18/laugh-4859749_1280.jpg");
+    background: linear-gradient(to left, transparent, mistyrose 70%),
+          url("https://cdn.pixabay.com/photo/2018/05/10/11/34/concert-3387324_1280.jpg");
     background-size: cover;
     height: 550px;      
 }
 
 .title-event{
    display: block;
-   justify-content: flex-end;
    align-items: center;
-   font-size: 6rem;
+   font-size: 4rem;
+   padding: 10px ;
 }
 
 .p-event{
@@ -231,25 +232,39 @@
    justify-content: center;
    align-items: center;
    font-size: 1rem;
+   padding: 10px;
 }
 
-.crash-test{
-   display: block;
-   width: 35%;
+.btn-classic{
+   width: 20%;
    background-color: black;
    color: white;
    border-radius: 8px;
-   padding: 14px 20px;
-   margin: 0 auto;
+   padding: 10px;
+   margin: 5px;
    border: none;
    cursor: pointer;
 }
 
 .event_element {
-  background: linear-gradient(to left, transparent, white),
-          url("https://cdn.pixabay.com/photo/2020/02/18/15/18/laugh-4859749_1280.jpg");
+  background: linear-gradient(to left, transparent, white 70%),
+          url("https://thumbs.dreamstime.com/b/c%C3%A9l%C3%A9bration-du-nouvel-avec-champagne-et-confetti-golden-holiday-164451533.jpg");
+  background-position: center;
   background-size: cover;
-  height: 350px
+  height: 400px;
 }
 
 
+.event-test{
+  width:100vw;
+  height:500px;
+  background-image: linear-gradient(to left, rgba(230, 88, 88, 0.2) , rgba(255, 255, 255, 0.9) 60%), 
+      url('https://wallpapertag.com/wallpaper/full/c/8/b/486810-free-city-background-pictures-1920x1080-for-ipad-pro.jpg'); 
+  background-position:center center; 
+  background-size:cover;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 80vh;
+}
