@@ -268,3 +268,20 @@
   width: 100%;
   height: 80vh;
 }
+
+/*********************/
+ /*  INDEX    */
+ /*********************/
+
+ .container-list{
+   display: flex;
+   border: 2px solid black;
+   width: 50%;
+ }
+
+ ul{
+   display: flex;
+   flex-direction: column;
+   padding: 20px;
+ }
+
